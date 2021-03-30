@@ -6,7 +6,8 @@ We share here four different datasets, classified by their approach: links betwe
 
 This dataset was created by extracting hyperlinks from news articles. Unfortunaly, we don't have the source HTML files, including the whole content. So, we share two files in the Link-based directory:
 
-* `links_news_july_2019.csv`: this file includes all links from one source to another. This file can be read by multiple graph analysis softwares, such as Gephi and NetworkX (a popular Python library to manipulate graphs). The result will be a directed and weighted graph, where the nodes (vertices) are websites, and the links (edges) are hyperlinks from one website to another, as extracted from news articles.
+* `links_news_july_2019.csv`: this file includes all links from one source to another. This file can be read by multiple graph analysis softwares, such as Gephi and NetworkX (a popular Python library to manipulate graphs). Each line include the source, the destiny and weight of the edge, i.e., the number of times a source linked another. The result will be a directed and weighted graph, where the nodes (vertices) are websites, and the links (edges) are hyperlinks from one website to another, as extracted from news articles.
+
 * `urls_news_july_2019.csv`: here, we included the news articles URLs, allowing the possibility of downloading the articles for other manipulations, such as hyperlink and content extraction.
 
 ## Text-based datasets
